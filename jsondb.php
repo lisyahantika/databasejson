@@ -4,7 +4,7 @@
  $db_pass = "";
  $db_name = "json_db";
  $koneksi = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
- $sql = "Select * from kategori";
+ $sql = "Select * from customer";
  $query = mysqli_query($koneksi, $sql);
  $rows=array();
  while($data = mysqli_fetch_assoc($query)){
